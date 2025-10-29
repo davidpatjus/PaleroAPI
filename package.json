@@ -10,7 +10,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "cross-env NODE_ENV=development nest start --watch",
-    "start:prod": "cross-env NODE_ENV=production node dist/src/main",
+    "start:prod": "cross-env NODE_ENV=production node dist/main",
     "start:debug": "nest start --debug --watch",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "npx tsx src/db/migrate.ts",
